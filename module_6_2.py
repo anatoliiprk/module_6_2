@@ -7,14 +7,14 @@ class Vehicle:
     def __init__(self, owner: str, __model: str, __engine_power: int, __color: str):
         self.owner = owner
         self.__model = __model
-        self.__endine_power = __engine_power
+        self.__engine_power = __engine_power
         self.__color = __color
 
     def get_model(self):
         print(f'Модель: {self.__model}')
 
     def get_horsepower(self):
-        print(f'Мощность двигателя: {self.__endine_power}')
+        print(f'Мощность двигателя: {self.__engine_power}')
 
     def get_color(self):
         print(f'Цвет: {self.__color}')
